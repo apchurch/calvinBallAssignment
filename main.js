@@ -14,7 +14,7 @@ var crying;
          has_ball = false;
          is_in_tree = false;
         crying = false;
-/*
+
 //Player Two
         var score = 394;
         var last_play = "W";
@@ -22,8 +22,8 @@ var crying;
         var has_ball = true;
         var is_in_tree = true;
         var crying = false; 
-        */
-/*
+        
+
 //Player Three
 		var score = "f";
         var last_play = 1.5;
@@ -31,7 +31,7 @@ var crying;
         var has_ball = true;
         var is_in_tree = false;
         var crying = true
-*/
+
 if (score ==! 'number') {
 	score = 500;
         
