@@ -1,3 +1,4 @@
+//here I have listed the applicable variables for calvinBall
 var score;
 var last_play;
 var broom;
@@ -6,33 +7,33 @@ var is_in_tree;
 var crying;
 
 
-
+//here are the players, which can only play one at a time
 //Player One
-         score = 193;
-         last_play = 'Q';
-         broom = 'handle';
-         has_ball = false;
-         is_in_tree = false;
-        crying = false;
+        //  score = 193;
+        //  last_play = 'Q';
+        //  broom = 'handle';
+        //  has_ball = false;
+        //  is_in_tree = false;
+        // crying = false;
 
 //Player Two
-        var score = 394;
-        var last_play = "W";
-        var broom = "none";
-        var has_ball = true;
-        var is_in_tree = true;
-        var crying = false; 
+         // score = 394;
+         // last_play = "W";
+         // broom = "none";
+         // has_ball = true;
+         // is_in_tree = true;
+         // crying = false; 
         
 
 //Player Three
-		var score = "f";
-        var last_play = 1.5;
-        var broom = "brush";
-        var has_ball = true;
-        var is_in_tree = false;
-        var crying = true
-
-if (score ==! 'number') {
+	score = "f";
+        last_play = 1.5;
+        broom = "brush";
+        has_ball = true;
+        is_in_tree = false;
+        crying = true
+//here I have fixed the bug, using 'typeof' so that Player Three begins with 500 points & can now play the game correctly.
+if (typeof score !== 'number') {
 	score = 500;
         
 }
